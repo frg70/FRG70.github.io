@@ -4,12 +4,14 @@ This section includes work on numerical methods, use of algorithms and different
 - Trajectory planning 
 - 
 ## **Section 2. Natural Language Processing (NLP)**
-
-
+This section shows some of the techniques learned for natural language processing, with the following projects: 
+- Candidate CV Analysis
 ## **Section 3. Computer Vision**
 
 ## **Section 4. Generative models**
-Some work on deep learning generative models 
-
+Some work on deep learning generative models, pruposes a method for the computing time reduction in deep probabilistic diffusion models. 
+The project: 
+- Image generation
 ## **Section 5. Data Analysis**
-Including data analysis work,  
+Including data analysis work, this include EDA analysis, with a project of: 
+- Drug analysis
