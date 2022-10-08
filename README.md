@@ -2,6 +2,7 @@
 ## **Section 1. Data Structures and algorithms**
 This section includes work on numerical methods, use of algorithms and different data structures including the following projects: 
 - Trajectory planning 
+- Methane reducion in cows
 - Neural Network Graphs
 ## **Section 2. Natural Language Processing (NLP)**
 This section shows some of the techniques learned for natural language processing, with the following projects: 
