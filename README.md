@@ -7,9 +7,6 @@ This section includes work on numerical methods, use of algorithms and different
 ## **Section 2. Natural Language Processing (NLP)**
 This section shows some of the techniques learned for natural language processing, with the following projects: 
 - Candidate CV Analysis
-## **Section 3. Computer Vision**
-Some work on medical image analysis: 
-- Medical image analysis 
 ## **Section 4. Generative models**
 Some work on deep learning generative models, pruposes a method for the computing time reduction in deep probabilistic diffusion models. 
 The project: 
