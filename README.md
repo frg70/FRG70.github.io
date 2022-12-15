@@ -1,16 +1,26 @@
 # *Portfolio*
-## **Section 1. Data Structures, Algorithms and Optimization**
-This section includes work on numerical methods, use of algorithms and different data structures including the following projects: 
-- Trajectory planning 
-- Methane reducion
-- Neural Network Graphs
-## **Section 2. Natural Language Processing (NLP)**
-This section shows some of the techniques learned for natural language processing, with the following projects: 
-- Candidate CV Analysis
-## **Section 4. Generative models**
-Some work on deep learning generative models, pruposes a method for the computing time reduction in deep probabilistic diffusion models. 
-The project: 
-- Image generation
-## **Section 5. Data Analysis**
-Including data analysis work, this include EDA analysis, with a project of: 
-- Drug analysis
+## **1. Trajectory planning**(Python= 
+
+## **2. Methane Reduction**(Python) 
+This work show
+
+## **3. Graph Neural Cellular Automata**(Pytorch)
+
+## **4. Deep Diffussion Models**(Pytorch)
+The following work proposes modification to the usual operations 
+ToDO: 
+Train fully and extract weights,  
+## **5. Drug interaction modelling**(Python)
+This project proposes a techniche for modelling drug interaction based on directed graph and spectral clustering analysis
+ToDO: 
+- Still lacks web deployment 
+- Easy query extraction based on other drug
+## **6. Genetic algorithm Unity**(C#)
+
+## **7. Detection of Corn plague OpenCV**(C++)
+
+## **8. Reinforcement learning games**(JavaScript)
+
+
+##**9. Stastical analysis and regression**(R) 
+This work analyses data 
