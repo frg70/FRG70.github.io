@@ -1,8 +1,8 @@
 # *Portfolio*
-## **1. Trajectory planning**(Python= 
+## **1. Trajectory planning**(Python)
 
 ## **2. Methane Reduction**(Python) 
-This work show
+This work shows the programming of simplex optimization method, for finding the optimals values in the diet of cows, for the reduction of methane. 
 
 ## **3. Graph Neural Cellular Automata**(Pytorch)
 
