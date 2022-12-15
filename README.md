@@ -22,5 +22,5 @@ ToDO:
 ## **8. Reinforcement learning games**(JavaScript)
 
 
-##**9. Stastical analysis and regression**(R) 
+## **9. Stastical analysis and regression**(R) 
 This work analyses data 
