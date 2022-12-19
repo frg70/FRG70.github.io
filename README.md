@@ -15,7 +15,7 @@ This project proposes a techniche for modelling drug interaction based on direct
 ToDO: 
 - Still lacks web deployment 
 - Easy query extraction based on other drug
-## **6. Genetic algorithm Unity**(C#)
+## **6. Unity simulation**(C#)
 
 ## **7. Detection of Corn plague OpenCV**(C++)
 
