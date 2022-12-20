@@ -6,8 +6,9 @@ Methane is the second most polluting greenhouse gas produced by human activity r
 In a study by [*Roque (2021)*](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247820), shows how the introduction of the algae [*asparagopsis taxiformis*](https://es.wikipedia.org/wiki/Asparagopsis_taxiformis) can decrease methane emissions due to fermentation in 75% with a medium forrage diet. 
 
 <div style="text-align: center;">
-<img src= "https://images.squarespace-cdn.com/content/v1/59a8881c15d5db4b8274be26/1620724047295-QK03U0F4XF4AKBJLKOOI/IMG_6363.jpg" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px">
-*Asparagapsis taxiformis algae* </div>
+  <img src= "https://images.squarespace-cdn.com/content/v1/59a8881c15d5db4b8274be26/1620724047295-QK03U0F4XF4AKBJLKOOI/IMG_6363.jpg" alt = "Footer" style ="display:      inline-block; width: 350px; height: 350px">
+</div>
+<center> Asparagpsistaxiformis image </center>
 
 
 
