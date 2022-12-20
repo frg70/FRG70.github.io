@@ -8,8 +8,6 @@ In a study by [*Roque (2021)*](https://journals.plos.org/plosone/article?id=10.1
 This project proposes and equation that represent the diets given to cows, aiming to find the optimal parameters in diet of the animal to reduce methane production. 
 This project implements the Simplex Method for finding the minimum points. 
 
-
-
 The equation proposed: 
 $$\frac{7.15h + 7338c + 1.5g + 55u + 17.2p + 26.3f + 0.88a + 0.42r + 307k + 0.15i}{52}$$
 Where: 
@@ -45,17 +43,12 @@ ToDo:
 The following work proposes modification to the usual operations 
 ToDO: 
 Train fully and extract weights,  
-## **5. Drug interaction modelling**(Python)
-This project proposes a techniche for modelling drug interaction based on directed graph and spectral clustering analysis
-ToDO: 
-- Still lacks web deployment 
-- Easy query extraction based on other drug
-## **6. Unity simulation**(C#)
+## **5. Unity simulation**(C#)
 
-## **7. Detection of Corn plague OpenCV**(C++)
+## **6. Detection of Corn plague OpenCV**(C++)
 
-## **8. Reinforcement learning games**(JavaScript)
+## **7. Reinforcement learning games**(JavaScript)
 
 
-## **9. Stastical analysis and regression**(R) 
+## **8. Stastical analysis and regression**(R) 
 This work analyses data 
