@@ -8,6 +8,7 @@ This project proposes and equation that represent the diets given to cows, and t
 The equation proposed: 
 $$\frac{7.15h + 7338c + 1.5g + 55u + 17.2p + 26.3f + 0.88a + 0.42r + 307k + 0.15i}{52}$$
 Where ```math
+\sqrt{3}
 h: is the hydrogen produced.
 c: is the CO_2 produced.  
 g: is the kilograms gained. 
