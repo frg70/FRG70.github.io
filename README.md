@@ -5,11 +5,7 @@ Trajectory planning and delivery is one of the most common problems in logistics
 Methane is the second most polluting greenhouse gas produced by human activity representing 10.2% of the greenhouse gas emissions in the U.S. for the year 2017. 
 In a study by [*Roque (2021)*](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247820), shows how the introduction of the algae [*asparagopsis taxiformis*](https://es.wikipedia.org/wiki/Asparagopsis_taxiformis) can decrease methane emissions due to fermentation in 75% with a medium forrage diet. 
 
-<img 
-     src= "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRg9M7mmCQfTq7AsPHTWA73IF99lsnn_8N94eJfSf5wMibVti-qAmPVNiumzWJGs0ziDy8DMFN30hrDUwY"
-     alt = "Image of asparagopsis taxiformis"
-     title = "Asparagopsis Taxiformis"
-     sytle ="display: inline-block; margin = 10 auto; max-width: 50px">
+<img src= "https://images.squarespace-cdn.com/content/v1/59a8881c15d5db4b8274be26/1620724047295-QK03U0F4XF4AKBJLKOOI/IMG_6363.jpg" alt = "Footer" style ="display: inline-block; width: 100px; height: 80px">
 
 This project proposes and equation that represent the diets given to cows, aiming to find the optimal parameters in diet of the animal to reduce methane production. 
 This project implements the Simplex Method for finding the minimum points.  
