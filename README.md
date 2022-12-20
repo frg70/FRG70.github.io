@@ -9,7 +9,7 @@ In a study by Roque (2021), shows how the introduction of the algae *asparagopsi
      src= "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRg9M7mmCQfTq7AsPHTWA73IF99lsnn_8N94eJfSf5wMibVti-qAmPVNiumzWJGs0ziDy8DMFN30hrDUwY"
      alt = "Image of asparagopsis taxiformis"
      title = "Asparagopsis Taxiformis"
-     sytle ="display: inline-block; margin = 10 auto; max-width: 150px">
+     sytle ="display: inline-block; margin = 10 auto; max-width: 50px">
 
 This project proposes and equation that represent the diets given to cows, aiming to find the optimal parameters in diet of the animal to reduce methane production. 
 This project implements the Simplex Method for finding the minimum points.  
