@@ -31,6 +31,14 @@ With the following restrictions:
 9. $$1 <= r$$
 10. $$1 <= k$$
 11. $$1 <= i$$
+
+With the following results 
+| Method| h | c | g | u | p | f | a | r | k| i | Point found |
+---------------------------------------------------------------
+| Simplex| 666.6 | 1 | 0.7 | 1 | 1 | 1 | 1 | 1 | 1| 1 | 240.62 |
+
+
+
 ## **3. Graph Neural Cellular Automata**(Pytorch)
 
 ## **4. Deep Diffussion Models**(Pytorch)
