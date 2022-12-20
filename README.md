@@ -33,9 +33,9 @@ With the following restrictions:
 11. $$1 <= i$$
 
 With the following results 
-| Method| h | c | g | u | p | f | a | r | k| i | Point found |
+| Method| h | c | g | u | p | f | a | r | k| i | **Point found** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| Simplex| 666.6 | 1 | 0.7 | 1 | 1 | 1 | 1 | 1 | 1| 1 | 240.62 |
+| Simplex| 666.6 | 1 | 0.7 | 1 | 1 | 1 | 1 | 1 | 1| 1 | **240.62** |
 
 
 
