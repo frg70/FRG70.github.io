@@ -20,7 +20,7 @@ $$r:$$ the percentage of carbohydrates.
 $$k:$$ the amount of calories. 
 $$i:$$ the percetange of idione.
 With the following restrictions:
-1. $$55u + 17.2p + 26.3f + 0.88a + 0.42r + 0.15i = 100$
+1. $$55u + 17.2p + 26.3f + 0.88a + 0.42r + 0.15i = 100$$
 2. $$1 < h < 2$$
 3. $$0 < c < 0.7$$
 4. $$1 <= u$$
