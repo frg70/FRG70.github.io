@@ -7,6 +7,20 @@ In a study by Roque (2021), shows how the introduction of the algae *asparagopsi
 This project proposes and equation that represent the diets given to cows, and the implementation of the Simplex Method to find the optimal values for the parameters of the diet, for minimizing methane production. 
 The equation proposed: 
 $$\frac{7.15h + 7338c + 1.5g + 55u + 17.2p + 26.3f + 0.88a + 0.42r + 307k + 0.15i}{52}$$
+Where ```math
+h: is the hydrogen produced.
+c: is the CO_2 produced.  
+g: is the kilograms gained. 
+u: is the percentage of humid pasture in the diet.
+p: the percetange of protein. 
+f: the percentage of fat. 
+a: the percentage of ash. 
+r: the percentage of carbohydrates. 
+k: the amount of calories. 
+i: the percetange of idione. ```
+With the following restrictions: 
+
+ 
 
 
 
