@@ -8,7 +8,7 @@ In a study by [*Roque (2021)*](https://journals.plos.org/plosone/article?id=10.1
 <div align = "center">
   <img src= "https://images.squarespace-cdn.com/content/v1/59a8881c15d5db4b8274be26/1620724047295-QK03U0F4XF4AKBJLKOOI/IMG_6363.jpg" alt = "Footer" style ="display:      inline-block; width: 350px; height: 350px;">
 </div>
-<p align = "center"><i>Asparagpsistaxiformis image</i></p>
+<p align = "center"><i><strong> Figure 1. Asparagpsistaxiformis image</strong></i></p>
 
 
 
