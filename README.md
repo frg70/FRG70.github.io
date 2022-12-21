@@ -16,7 +16,9 @@ $$\frac{7.15h + 7338c + 1.5g + 55u + 17.2p + 26.3f + 0.88a + 0.42r + 307k + 0.15
 Where: 
 h is the hydrogen produced, c is the $$CO_2$$ produced, g is the kilograms gained, u is the percentage of humid pasture in the diet, p is the percetange of protein, f is the percentage of fat, a is the percentage of ash, r is the percentage of carbohydrates, k is the amount of calories, 
 i is the percetange of idione.
+
 With the following restrictions for the case of the Simplex method:
+
 1. $$55u + 17.2p + 26.3f + 0.88a + 0.42r + 0.15i = 100$$
 2. $$1 < h < 2$$
 3. $$0 < c < 0.7$$
