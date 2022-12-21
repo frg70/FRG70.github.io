@@ -9,9 +9,10 @@ Trajectory planning and delivery is one of the most common problems in logistics
   <img src= "https://github.com/frg70/Portfolio/blob/main/Voronoi.png" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
 </div>
 <p align = "center"><i> Figure 2. Voronoi Polynomial based on the route found</i></p>
+
 ToDO: 
-* Upload code
-* Give more detailed information
+- Upload code
+- Give more detailed information
 
 ## **2. Methane Reduction in cattle feed fermentation**
 Methane is the second most polluting greenhouse gas produced by human activity representing 10.2% of the greenhouse gas emissions in the U.S. for the year 2017, the main source of this due the methane eructation produced by enteric fermetation. 
