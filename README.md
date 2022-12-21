@@ -8,7 +8,7 @@ In a study by [*Roque (2021)*](https://journals.plos.org/plosone/article?id=10.1
 <div align = "center">
   <img src= "https://scx2.b-cdn.net/gfx/news/2019/1-seaweedfeeda.jpg" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
 </div>
-<p align = "center"><i><strong> Figure 1. Asparagpsistaxiformis image</strong></i></p>
+<p align = "center"><i><strong> Figure 1. Asparagpsis taxiformis for cattle feed</strong></i></p>
 This project proposes and equation that represent the diets given to cows, aiming to find the optimal parameters in diet of the animal to reduce methane production. 
 This project implements the Simplex Method for finding the minimum points. 
 The equation proposed: 
