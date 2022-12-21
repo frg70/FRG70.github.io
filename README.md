@@ -12,6 +12,7 @@ Trajectory planning and delivery is one of the most common problems in logistics
 ToDO: 
 - Upload code
 - Give more detailed information
+
 ## **2. Methane Reduction in cattle feed fermentation**
 Methane is the second most polluting greenhouse gas produced by human activity representing 10.2% of the greenhouse gas emissions in the U.S. for the year 2017, the main source of this due the methane eructation produced by enteric fermetation. 
 <div align = "center">
