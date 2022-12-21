@@ -62,7 +62,7 @@ ToDo:
 ## **3. Graph Neural Cellular Automata**
 
 ## **4. Deep Diffussion Models**
-The following work proposes modifications to the usual operations for classical denoising diffusion probabilistic models, for generating text-to-video, as defined by [*Ho (2022)*]("https://arxiv.org/abs/2006.11239"). 
+The following work proposes modifications to the usual operations for classical denoising diffusion probabilistic models, for generating text-to-video, as defined by [*Ho (2020)*](https://arxiv.org/abs/2006.11239), 
 There it is defined: 
 ```math
 1. 
