@@ -6,15 +6,11 @@ Methane is the second most polluting greenhouse gas produced by human activity r
 In a study by [*Roque (2021)*](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247820), shows how the introduction of the algae [*asparagopsis taxiformis*](https://es.wikipedia.org/wiki/Asparagopsis_taxiformis) can decrease methane emissions due to fermentation in 75% with a medium forrage diet. 
 
 <div align = "center">
-  <img src= "https://images.squarespace-cdn.com/content/v1/59a8881c15d5db4b8274be26/1620724047295-QK03U0F4XF4AKBJLKOOI/IMG_6363.jpg" alt = "Footer" style ="display:      inline-block; width: 350px; height: 350px;">
+  <img src= "https://images.squarespace-cdn.com/content/v1/59a8881c15d5db4b8274be26/1620724047295-QK03U0F4XF4AKBJLKOOI/IMG_6363.jpg" alt = "Footer" style ="display:      inline-block; width: 350px; height: 350px;"/> 
 </div>
 <p align = "center"><i><strong> Figure 1. Asparagpsistaxiformis image</strong></i></p>
-
-
-
 This project proposes and equation that represent the diets given to cows, aiming to find the optimal parameters in diet of the animal to reduce methane production. 
 This project implements the Simplex Method for finding the minimum points. 
-
 The equation proposed: 
 $$\frac{7.15h + 7338c + 1.5g + 55u + 17.2p + 26.3f + 0.88a + 0.42r + 307k + 0.15i}{52}$$
 Where: 
@@ -40,6 +36,7 @@ With the following restrictions for the case of the Simplex method:
 
 ToDo: 
 - Create graph that allows to visualize the point.  
+- Upload code and Jupyter Notebook. 
 
 
 
