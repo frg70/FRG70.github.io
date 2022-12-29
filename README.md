@@ -60,12 +60,12 @@ ToDo:
 ## **3. Graph Neural Cellular Automata**
 Colorectal Cancer is one of the most agressive types of cancer known to human, causing [*52,580*](https://www.cancer.org/cancer/colon-rectal-cancer/about/key-statistics.html#:~:text=Deaths%20from%20colorectal%20cancer,about%2052%2C580%20deaths%20during%202022.) deaths for the year 2022 
 Based on the work of [*Grattarola et.al. (2021)*](https://arxiv.org/pdf/2110.14237.pdf), the following proposes to use directed graph neural networks as graph cellular automata, in a process of morfogenesis to determine the growth process of colorectal cancer. 
-Methodology: 
-The following image will be used as target, replacing the point cloud proposed by [*Grattarola*](https://arxiv.org/pdf/2110.14237.pdf): 
+**Methodology:** 
+Images from colon cancer where obtained from the [*LC2500 dataset*](https://github.com/tampapath/lung_colon_image_set), replacing the point cloud proposed by [*Grattarola*](https://arxiv.org/pdf/2110.14237.pdf): 
 <div align = "center">
   <img src= "https://github.com/frg70/Portfolio/blob/main/GraphNeuralCelullarAutomata/Resources/colonca5.jpeg" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
 </div>
-<p align = "center"><i> Figure 1. Enteric fermetation</i></p>
+<p align = "center"><i> Figure 3. Colon cancer cell</i></p>
 
 
 
