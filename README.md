@@ -58,6 +58,18 @@ With the following restrictions for the case of the Simplex method:
 ToDo: 
 - Create graph that allows to visualize the point.   
 ## **3. Graph Neural Cellular Automata**
+Colorectal Cancer is one of the most agressive types of cancer known to human, causing [*52,580*](https://www.cancer.org/cancer/colon-rectal-cancer/about/key-statistics.html#:~:text=Deaths%20from%20colorectal%20cancer,about%2052%2C580%20deaths%20during%202022.) deaths for the year 2022 
+Based on the work of [*Grattarola et.al. (2021)*](https://arxiv.org/pdf/2110.14237.pdf), the following proposes to use directed graph neural networks as graph cellular automata, in a process of morfogenesis to determine the growth process of colorectal cancer. 
+Methodology: 
+The following image will be used as target, replacing the point cloud proposed by [*Grattarola*](https://arxiv.org/pdf/2110.14237.pdf): 
+<div align = "center">
+  <img src= "https://github.com/frg70/Portfolio/blob/main/GraphNeuralCelullarAutomata/Resources/colonca5.jpeg" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
+</div>
+<p align = "center"><i> Figure 1. Enteric fermetation</i></p>
+
+
+
+
 
 ## **4. Deep Diffussion Models**
 The following work proposes modifications to the usual operations for classical denoising diffusion probabilistic models, for generating text-to-video, as defined by [*Ho (2020)*](https://arxiv.org/abs/2006.11239), 
