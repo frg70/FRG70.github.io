@@ -11,7 +11,6 @@ Trajectory planning and delivery is one of the most common problems in logistics
 <p align = "center"><i> Figure 2. Voronoi Polynomial based on the route found</i></p>
 
 ToDO: 
-- Upload code
 - Give more detailed information
 
 ## **2. Methane Reduction in cattle feed fermentation**
@@ -57,8 +56,7 @@ With the following restrictions for the case of the Simplex method:
 | Simplex| 666.6 | 1 | 0.7 | 1 | 1 | 1 | 1 | 1 | 1| 1 | **240.62** |
 
 ToDo: 
-- Create graph that allows to visualize the point.  
-- Upload code and Jupyter Notebook. 
+- Create graph that allows to visualize the point.   
 ## **3. Graph Neural Cellular Automata**
 
 ## **4. Deep Diffussion Models**
