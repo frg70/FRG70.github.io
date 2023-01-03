@@ -63,7 +63,7 @@ One of the main characteristics of cancer development is that there are no gener
 Given this characteristics is proposed to describe cancer systems as graph cellular automata, using celullar automata to determine the patterns of cells based on rules allows to find the patterns in a multiagent system adding graphs allows for flexibility by changing the classical grid for the weighted directed connections in allowing for a better representation of the interactions.   
 
 **Methodology:** 
-Images from colon cancer where obtained from the [*LC2500 dataset*](https://github.com/tampapath/lung_colon_image_set). replacing the point cloud proposed by [*Grattarola*](https://arxiv.org/pdf/2110.14237.pdf): 
+Images from colon cancer where obtained from the [*LC2500 dataset*](https://github.com/tampapath/lung_colon_image_set).
 <div align = "center">
   <img src= "https://github.com/frg70/Portfolio/blob/main/GraphNeuralCelullarAutomata/Resources/colonca5.jpeg" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
 </div>
