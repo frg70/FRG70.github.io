@@ -67,7 +67,7 @@ There it is defined:
 ```
 ToDO: 
 Train fully and extract weights,  
-## @@4. Unity robotics simulation(Unity-C#)@@
+## @@ 4. Unity robotics simulation(Unity-C#) @@
 
 ## **6. Detection of Corn plague OpenCV**(OpenCV-C++)
 
