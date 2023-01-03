@@ -68,7 +68,7 @@ Images from colon cancer where obtained from the [*LC2500 dataset*](https://gith
   <img src= "https://github.com/frg70/Portfolio/blob/main/GraphNeuralCelullarAutomata/Resources/colonca5.jpeg" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
 </div>
 <p align = "center"><i> Figure 3. Colon cancer cell</i></p>
-The design of the NN is based in the work of [*Grattarola et.al.(2021)*](https://arxiv.org/pdf/2110.14237.pdf) , the following project proposes to use weight directed graph neural networks as graph cellular automata, in a process of morfogenesis to determine the growth process of colorectal cancer.
+The design of the NN is based in the work of [*Grattarola (2021)*](https://arxiv.org/pdf/2110.14237.pdf), the following project proposes to use weight directed graph neural networks as graph cellular automata, in a process of morfogenesis to determine the growth process of colorectal cancer.
 The defined objective cloud point, will be obtained from a diagnosed cancer cell, the graph weights will be obtained from the direction of grid colors and the image will be the target cloud point for the neural network, obtaining as plots the morphogenesis process for the deconstructed collorectal cell. 
 
 **Results:** 
