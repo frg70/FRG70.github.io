@@ -68,9 +68,7 @@ There it is defined:
 ToDO: 
 Train fully and extract weights,
 
-## <p style="color:red;">Red paragraph text</p>
-
-## **<p style = "color: magenta"> 4. Unity robotics simulation(Unity-C#)</p>**
+## ** 4. Unity robotics simulation(Unity-C#)**
 
 ## **6. Detection of Corn plague OpenCV**(OpenCV-C++)
 
