@@ -91,6 +91,7 @@ This analyses aims to find important relations and insights from the dataset.
 - Compute a linear model. 
 
 **Results**
+
 For the distribution of relevant variables grouped by task: 
 <div align = "center">
   <img src= "https://user-images.githubusercontent.com/79294106/210650204-0e942a82-2408-4dd9-98c3-7fed16fb6c2f.png" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
