@@ -89,6 +89,7 @@ This analyses aims to find important relations and insights from the dataset.
 - Find strong correlations between variables. This in order to reduce the number of variables in the problem. 
 - Determine if task has an effect on predictor variables. Use friedmann-test.
 - Compute a linear model. 
+
 **Results**
 For the distribution of relevant variables grouped by task: 
 <div align = "center">
