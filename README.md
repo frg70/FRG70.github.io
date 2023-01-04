@@ -77,22 +77,28 @@ ToDO:
 ## **7. Stastical analysis and regression(R)** 
 The [*Sympathetic nervous system*](https://my.clevelandclinic.org/health/body/23262-sympathetic-nervous-system-sns-fight-or-flight#:~:text=Your%20sympathetic%20nervous%20system%20is,in%20danger%20or%20physically%20active.) is a system that controls 
 This work analyses data from Sloan in an study that noted that cardiac sympathetic activation and parasympathetic withdrawal result in heart rate increases during psychological stress. 
+
 Power spectral analysis of heart period variability also provides estimates of cardiac autonomic nervous system activity. 
 The authors conducted a study to determine the relationship between neurohumoral and two different spectral estimates of cardiac sympathetic nervous system activity during a quiet resting baseline and in response to a psychologically challenging arithmetic task. 
+
 Subjects were healthy, medication-free male and female volunteers with a mean age of 37.8 years. None had a history of cardiac, respiratory, or vascular disease. Among the data collected were the measurements on E, NE, low-frequency (LF) and very-low-frequency (VLF) power spectral indices, and low-frequency/high-frequency ratios (LH/HF). Measurements are given for three periods: baseline (B), a mental arithmetic task (MA), and change from baseline to task (DELTA). 
 This analyses aims to find important relations and insights from the dataset. 
 **Methdology**
-1. 
-
+1. Do normality test for all variables. Use shapiro-willks test. 
+2. Find strong correlations between variables. This in order to reduce the number of variables in the problem. 
+3. Determine if task has an effect on predictor variables. Use friedmann-test.
+4. Compute a linear model. 
 **Results**
-
+For the distribution of relevant variables grouped by task: 
 <div align = "center">
-  <img src= "https://user-images.githubusercontent.com/79294106/210648356-84aeb02d-1cd8-42d8-bbaa-0fbef0b832dc.png" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
+  <img src= "https://user-images.githubusercontent.com/79294106/210650204-0e942a82-2408-4dd9-98c3-7fed16fb6c2f.png" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
 </div>
 <p align = "center"><i>Figure 5. Boxplots of variables </i></p>
-
-
-
+For the linear model: 
+<div align = "center">
+  <img src= "(https://user-images.githubusercontent.com/79294106/210650032-1f59ba1e-1726-4d09-bce6-1866d39121f4.png" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
+</div>
+<p align = "center"><i>Figure 6. Linear model computed</i></p>
 
 ## **8. Physically informed machine learning for material science(Pytorch)** 
 
