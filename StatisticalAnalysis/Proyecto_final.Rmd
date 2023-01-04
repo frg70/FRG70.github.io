@@ -1,0 +1,163 @@
+---
+title: "proyecto_final"
+author: "Fernando Ramírez González"
+date: "18/11/2022"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+Sloan et al. note that cardiac sympathetic activation and parasympathetic withdrawal result in heart rate increases during psychological stress. 
+
+Note: Sympathetic nervous system controls the flow of blood pressure and muscle contraction, while parasympatetic nervous system controls muscle relaxation. 
+
+As indicators of cardiac adrenergic activity, plasma epinephrine (E) and norepinephrine (NE) generally increase in response to psychological challenge. 
+Note: Main indicators of cardiac activity controlled by the sympathethic system are epinephrine, norepinephrine and  acetylcholine. 
+
+Power spectral analysis of heart period variability also provides estimates of cardiac autonomic nervous system activity. 
+The authors conducted a study to determine the relationship between neurohumoral and two different spectral estimates of cardiac sympathetic nervous system activity during a quiet resting baseline and in response to a psychologically challenging arithmetic task. 
+Subjects were healthy, medication-free male and female volunteers with a mean age of 37.8 years. None had a history of cardiac, respiratory, or vascular disease. Among the data collected were the measurements on E, NE, low-frequency (LF) and very-low-frequency (VLF) power spectral indices, and low-frequency/high-frequency ratios (LH/HF). Measurements are given for three periods: baseline (B), a mental arithmetic task (MA), and change from baseline to task (DELTA), in file REV_C09_42.csv.
+
+- Perform a statistical analysis of the data (including hypothesis testing and confidence interval construction) that you think would yield useful information for the researchers.
+- Construct graphs that you think would be helpful in illustrating the relationships among variables.
+- Determine p values for each computed test statistic.
+( hint: hacer correlaciones de las variables E y NE contra las variables de frecuencia cardiaca, para comparar condiciones de reposo (B) y actividad (NA) antes de intentar un modelo lineal (lm) solo hacer el modelo lineal de las variables que muestren correlación).
+
+```{r}
+library(corrplot)
+library(tidyverse)
+library(coin)
+library(rstatix)
+data <- read.csv(url("https://raw.githubusercontent.com/fabarrios/ProbEstad/main/DataSets/ch09_all/REV_C09_42.csv")) 
+#Primero se eliminan las NAs
+data <- na.omit(data)
+#Después de eliminar los valores na
+#1: 3, 2: 0,3: 3, 4: 3, 5:6, 6: 6, 7: 3, 8: 6, 9:3, 10: 3, 11: 3, 12: 4 , 13: 6, 14: 4, 15: 1, 16: 3, 17: 0, 18: 6, 19: 4, 20: 6, 21: 6, 22: 6, 23: 3, 24: 3, 25:0
+data
+```
+Consideraciones: 
+- Se tienen medidas repetidas. 
+- Al observar que no todas las observaciones se encuentran completa se decidió realizar lo siguiente: 
+1. Para aquellos sujetos que tienen más de una observación por categoría, se tomara una de las dos observaciones. 
+2. Para los sujetos que tienen 1 observación por categoría se mantienen.
+3. Se eliminan las observaciones de los sujetos que no tienen todas las categorías. 
+```{r}
+data <- data[-c(48,49,50,51,52,53,54,55,56,66,69,70,71,72,73,77,78,79,23,83,84,85,86,87,88,89,90,91),]
+```
+
+
+```{r}
+data$PATIENT <- factor(data$PATIENT)
+data$PERIOD <- factor(data$PERIOD)
+```
+Paso 1. Observar los datos 
+```{r}
+summary(data)
+```
+Del summary podemos ver que la única variable para la que tenemos evidencia concrecta de ser una distribución normal es LFHF,por lo que para el resto se realizan pruebas de normalidad. 
+Por lo que se plantean las siguientes hipótesis nula, para cada una de las variables: 
+H0: Los datos se dsitribuyen normalmente. 
+HA: Los datos no se distribuyen normalmente.  
+```{r}
+E_test <- shapiro.test(data$E)
+E_test
+```
+Del valor de p podemos observar que la H0 se puede descartar. 
+
+
+Por lo cuál mantendremos que sigue una distribución no normal y se deberán utilizar tests no paramétricos.
+```{r}
+NE_test <- shapiro.test(data$NE)
+NE_test
+```
+Del valor de p podemos observar que la H0 se puede descartar. 
+Por lo cuál mantendremos que sigue una distribución no normal y se deberán utilizar tests no paramétricos. 
+
+```{r}
+LF_test <- shapiro.test(data$LF)
+LF_test
+```
+Del valor de p podemos observar que la H0 se puede descartar. 
+Por lo cuál mantendremos que sigue una distribución no normal y se deberán utilizar tests no paramétricos. 
+```{r}
+VLF_test <- shapiro.test(data$VLF)
+VLF_test
+```
+Del valor de p podemos observar que la H0 se puede descartar. 
+Por lo cuál mantendremos que sigue una distribución no normal y se deberán utilizar tests no paramétricos.
+```{r}
+LFHF_test <- shapiro.test(data$LFHF)
+LFHF_test
+```
+Del valor de p no se puede descartar la hipótesis nula, y se asume la normalidad.
+
+Paso 2. Correlaciones de las variables. 
+Se tiene que reducir el problema por lo que solo se realizará el análisis para aquellas variables que muestren correlación, para esto se realiza una prueba de correlación entre cada una de las variables, asumiendo las siguiente hipótesis: 
+```{r}
+correlation_data <- data[,names(data) %in% c("E", "NE", "LFHF", "LF", "VLF")]
+cor(correlation_data, method = c("spearman"))
+```
+De la prueba de correlación, observamos que la epinefrina y la norepinefrina están correlacionados a la frecuencia baja y más a la frecuencia baja.
+También podemos observar correlaciones importantes entre la frecuencia baja y la frecuencia muy baja. 
+
+Por lo que para el modelo lineal se explorarán los siguientes casos: 
+1. Y = LF X = E, NE, VLF
+Paso 3. Encontrar si cada condición forma grupos estadísticamente diferentes entre ellos. 
+Esto se realizará mediante un análisis de varianza, así como con su represantación gráfica.
+Primero se realizan sus gráficos, para obtener una respuesta cualitativa:  
+```{r}
+library(ggplot2)
+library(ggpubr)
+E_plot <- ggplot(data, aes(x = E, y = LF)) + geom_boxplot(aes(color = PERIOD))
+NE_plot <- ggplot(data, aes(x = NE, y = LF)) + geom_boxplot(aes(color = PERIOD))
+VLF_plot <- ggplot(data, aes(x = VLF, y = LF)) + geom_boxplot(aes(color = PERIOD))
+ggarrange(E_plot, NE_plot, VLF_plot, labels = c("Epinephrine", "Norepinephrine" , "Very Low"))
+```
+Del gráfico observamos que en niveles de epinefrina, norepinefrina y muy baja frecuencia, los periodos B y MA, parecen no ser estadísticamente diferentes por lo cuál se plantea las siguiente hipótesis nula. 
+H0 = Los grupos son estadísticamente iguales, para todo periodo.  
+Halternativa: Los grupos son estadísticamente diferentes, para al menos un periodo.  
+```{r}
+friedman.test(y = data$LF, groups = data$PERIOD, blocks = data$PATIENT)
+```
+De esto podemos observar que los grupos son significativamente diferentes, descartando H0. 
+Ahora se medirá el efecto. 
+```{r}
+data %>% friedman_effsize(LF ~ PERIOD|PATIENT)
+```
+Se observa un efectos de las diferencias de tamaño grande ahora se observará de donde vienen esas diferencias mediante una prueba de wilcox.
+```{r}
+data %>% wilcox_test(LF ~ PERIOD, paired = TRUE)
+```
+Se observa que las diferencias obtenidas vienen de las medidas por el grupo que fue expuesto a la prueba delta. 
+Pudiendo observar que los niveles de la frecuencia disminuyen de manera directa con al disminución de las variables independientes, E, NE, VLF. 
+Cosa que sucede con el task DELTA. 
+Finalmente se realizará un modelo lineal, con las variables planteadas en la sección 2.  
+```{r}
+Lm_Scores <- lm(LF ~ E + NE + VLF, data = data)
+summary(Lm_Scores)
+```
+```{r}
+summary(Lm_Scores)$coefficient
+```
+Luego se realiza la prueba post-hoc 
+```{r}
+Scores_lm_0 <- lm(LF ~ (E + NE + VLF) - 1, data = data)
+summary(Scores_lm_0)
+```
+```{r}
+confint(Scores_lm_0)
+```
+Pudiendo describir el 98.6% de los datos con este modelo, mientras que sin la corrección post-hoc se llegaba al 96.5%, con los intervalos de confianza descritos arriba, mostrando el efecto de correlación de las variables en el porcentaje de la varianza que se puede describir. 
+Con un modelo lineal  LF = 0.19E + 0.43NE + 0.58VLF 
+```{r}
+plot(Scores_lm_0)
+```
+Conclusiones 
+
+
+
+
+
+
+
+
