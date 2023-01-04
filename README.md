@@ -16,14 +16,14 @@ ToDO:
 ## **2. Methane Reduction in cattle feed fermentation**(Python)
 Methane is the second most polluting greenhouse gas produced by human activity representing 10.2% of the greenhouse gas emissions in the U.S. for the year 2017, the main source of this due the methane eructation produced by enteric fermetation. 
 <div align = "center">
-  <img src= "https://letstalkscience.ca/sites/default/files/styles/width_800px/public/2020-03/Enteric_fermentation_process_in_cows.png?itok=IO4W4Fwz" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
+  <img src= "https://letstalkscience.ca/sites/default/files/styles/width_800px/public/2020-03/Enteric_fermentation_process_in_cows.png?itok=IO4W4Fwz" alt = "Footer" style ="display: inline-block; width: 600px; height: 350px;"/> 
 </div>
 <p align = "center"><i> Figure 1. Enteric fermetation</i></p>
 
 In a study by [*Roque (2021)*](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247820), shows how the introduction of the algae [*asparagopsis taxiformis*](https://es.wikipedia.org/wiki/Asparagopsis_taxiformis) can decrease methane emissions due to fermentation in 75% with a medium forrage diet. 
 
 <div align = "center">
-  <img src= "https://scx2.b-cdn.net/gfx/news/2019/1-seaweedfeeda.jpg" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
+  <img src= "https://scx2.b-cdn.net/gfx/news/2019/1-seaweedfeeda.jpg" alt = "Footer" style ="display: inline-block; width: 600px; height: 350px;"/> 
 </div>
 <p align = "center"><i>Figure 2. Asparagpsis taxiformis for cattle feed </i></p>
 This project proposes and equation that represent the diets given to cows, aiming to find the optimal parameters in diet of the animal to reduce methane production. 
@@ -94,12 +94,12 @@ This analyses aims to find important relations and insights from the dataset.
 
 For the distribution of relevant variables grouped by task: 
 <div align = "center">
-  <img src= "https://user-images.githubusercontent.com/79294106/210650204-0e942a82-2408-4dd9-98c3-7fed16fb6c2f.png" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
+  <img src= "https://user-images.githubusercontent.com/79294106/210650204-0e942a82-2408-4dd9-98c3-7fed16fb6c2f.png" alt = "Footer" style ="display: inline-block; width: 600px; height: 350px;"/> 
 </div>
 <p align = "center"><i>Figure 5. Boxplots of variables </i></p>
 For the linear model: 
 <div align = "center">
-  <img src= "https://user-images.githubusercontent.com/79294106/210650369-3782c52d-a69d-43a1-9afd-0c71db3b9038.png" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
+  <img src= "https://user-images.githubusercontent.com/79294106/210650369-3782c52d-a69d-43a1-9afd-0c71db3b9038.png" alt = "Footer" style ="display: inline-block; width: 600px; height: 350px;"/> 
 </div>
 <p align = "center"><i>Figure 6. Linear model computed</i></p>
 
