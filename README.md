@@ -83,11 +83,12 @@ The authors conducted a study to determine the relationship between neurohumoral
 
 Subjects were healthy, medication-free male and female volunteers with a mean age of 37.8 years. None had a history of cardiac, respiratory, or vascular disease. Among the data collected were the measurements on E, NE, low-frequency (LF) and very-low-frequency (VLF) power spectral indices, and low-frequency/high-frequency ratios (LH/HF). Measurements are given for three periods: baseline (B), a mental arithmetic task (MA), and change from baseline to task (DELTA). 
 This analyses aims to find important relations and insights from the dataset. 
+
 **Methdology**
-1. Do normality test for all variables. Use shapiro-willks test. 
-2. Find strong correlations between variables. This in order to reduce the number of variables in the problem. 
-3. Determine if task has an effect on predictor variables. Use friedmann-test.
-4. Compute a linear model. 
+- Do normality test for all variables. Use shapiro-willks test. 
+- Find strong correlations between variables. This in order to reduce the number of variables in the problem. 
+- Determine if task has an effect on predictor variables. Use friedmann-test.
+- Compute a linear model. 
 **Results**
 For the distribution of relevant variables grouped by task: 
 <div align = "center">
