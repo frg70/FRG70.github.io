@@ -86,8 +86,11 @@ This analyses aims to find important relations and insights from the dataset.
 
 **Results**
 
+<div align = "center">
+  <img src= "https://user-images.githubusercontent.com/79294106/210648356-84aeb02d-1cd8-42d8-bbaa-0fbef0b832dc.png" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
+</div>
+<p align = "center"><i>Figure 5. Boxplots of variables </i></p>
 
-![image](https://user-images.githubusercontent.com/79294106/210648356-84aeb02d-1cd8-42d8-bbaa-0fbef0b832dc.png)
 
 
 
