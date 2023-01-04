@@ -77,7 +77,20 @@ ToDO:
 ## **7. Stastical analysis and regression(R)** 
 The [*Sympathetic nervous system*](https://my.clevelandclinic.org/health/body/23262-sympathetic-nervous-system-sns-fight-or-flight#:~:text=Your%20sympathetic%20nervous%20system%20is,in%20danger%20or%20physically%20active.) is a system that controls 
 This work analyses data from Sloan in an study that noted that cardiac sympathetic activation and parasympathetic withdrawal result in heart rate increases during psychological stress. 
+Power spectral analysis of heart period variability also provides estimates of cardiac autonomic nervous system activity. 
+The authors conducted a study to determine the relationship between neurohumoral and two different spectral estimates of cardiac sympathetic nervous system activity during a quiet resting baseline and in response to a psychologically challenging arithmetic task. 
+Subjects were healthy, medication-free male and female volunteers with a mean age of 37.8 years. None had a history of cardiac, respiratory, or vascular disease. Among the data collected were the measurements on E, NE, low-frequency (LF) and very-low-frequency (VLF) power spectral indices, and low-frequency/high-frequency ratios (LH/HF). Measurements are given for three periods: baseline (B), a mental arithmetic task (MA), and change from baseline to task (DELTA). 
+This analyses aims to find important relations and insights from the dataset. 
+**Methdology**
+1. 
 
-## **8. Physically informed machine learning(Pytorch)** 
+**Results**
+
+
+![image](https://user-images.githubusercontent.com/79294106/210648356-84aeb02d-1cd8-42d8-bbaa-0fbef0b832dc.png)
+
+
+
+## **8. Physically informed machine learning for material science(Pytorch)** 
 
 
