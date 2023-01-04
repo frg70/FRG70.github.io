@@ -96,7 +96,7 @@ For the distribution of relevant variables grouped by task:
 <p align = "center"><i>Figure 5. Boxplots of variables </i></p>
 For the linear model: 
 <div align = "center">
-  <img src= "(https://user-images.githubusercontent.com/79294106/210650032-1f59ba1e-1726-4d09-bce6-1866d39121f4.png" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
+  <img src= "https://user-images.githubusercontent.com/79294106/210650369-3782c52d-a69d-43a1-9afd-0c71db3b9038.png" alt = "Footer" style ="display: inline-block; width: 350px; height: 350px;"/> 
 </div>
 <p align = "center"><i>Figure 6. Linear model computed</i></p>
 
