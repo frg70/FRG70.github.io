@@ -71,6 +71,9 @@ And training:
 ```
 
 
+
+
+
 ToDO: 
 - Train fully and extract weights
 
