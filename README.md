@@ -58,8 +58,6 @@ There it is defined:
 ```math
 1.  p_\theta(x_{0:T}):= p(x_T)\prod_{t=1}^Tp_\theta
 
-2.  p_\theta(x_{t-1}|x_t):=  
-
 ```
 ToDO: 
 - Train fully and extract weights
