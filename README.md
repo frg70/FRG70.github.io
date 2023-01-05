@@ -10,9 +10,6 @@ Trajectory planning and delivery is one of the most common problems in logistics
 </div>
 <p align = "center"><i> Figure 2. Voronoi Polynomial based on the route found</i></p>
 
-ToDO: 
-- Give more detailed information
-
 ## **2. Methane Reduction in cattle feed fermentation**(Python)
 Methane is the second most polluting greenhouse gas produced by human activity representing 10.2% of the greenhouse gas emissions in the U.S. for the year 2017, the main source of this due the methane eructation produced by enteric fermetation. 
 <div align = "center">
@@ -54,9 +51,6 @@ With the following restrictions for the case of the Simplex method:
 | Method| h | c | g | u | p | f | a | r | k| i | **Point found** |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  
 | Simplex| 666.6 | 1 | 0.7 | 1 | 1 | 1 | 1 | 1 | 1| 1 | **240.62** |
-
-ToDo: 
-- Create graph that allows to visualize the point.   
 
 ## **3. Deep Diffussion Models**
 The following work proposes modifications to the usual operations for classical denoising diffusion probabilistic models, for generating text-to-video, as defined by [*Ho (2020)*](https://arxiv.org/abs/2006.11239), 
