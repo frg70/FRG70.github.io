@@ -58,6 +58,10 @@ The following work proposes modifications to the usual operations for classical 
 Difussion models are latent variable models described by: p_\theta(X_0) := \[ \intp_\theta(X_{0:\Tau})\,dx_{1:\Tau} \]
 ```
 ```math
+\[ \int_{a}^{b} x^2 \,dx \]
+```
+
+```math
 For the reverse process: 
 Calculating the probability for all: p_\theta(X_{0:T}):= p(X_T)\prod_{t=1}^Tp_\theta(X_{t-1}|X_t),  
 ```
