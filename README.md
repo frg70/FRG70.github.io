@@ -57,13 +57,10 @@ The following work proposes modifications to the usual operations for classical 
 ```math
 Difussion models are latent variable models described by: p_\theta(X_0) := \int p_\theta(X_{0:\tau}) \,dx_{1:\tau}
 ```
+Where $$x_1, ..., $$x_\tau are latent variables of the same dimensionality and data is represented by $$x_0 ~ $$q(x_0), which joint distribution 
+$$p_\theta($$x_{0:\tau}) is the reverse is defined by the following Markov chain: 
 ```math
-\int_{a}^{b} x^2 \,dx
-```
-
-```math
-For the reverse process: 
-Calculating the probability for all: p_\theta(X_{0:T}):= p(X_T)\prod_{t=1}^Tp_\theta(X_{t-1}|X_t),  
+p_\theta(X_{0:T}):= p(X_T)\prod_{t=1}^Tp_\theta(X_{t-1}|X_t), p_\theta(X_{t-1}|X_t):= \eta(x_{t-1}; \mu_\theta(x_t,t), \sum_\theta(X_t, t))     
 ```
 
 ToDO: 
