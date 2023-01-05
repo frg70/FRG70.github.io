@@ -54,9 +54,8 @@ With the following restrictions for the case of the Simplex method:
 
 ## **3. Deep Diffussion Models**
 The following work proposes modifications to the usual operations for classical denoising diffusion probabilistic models, for generating text-to-video, as defined by [*Ho (2020)*](https://arxiv.org/abs/2006.11239): 
-```math
-Difussion models are latent variable models described by: p_\theta(x_0) := \int p_\theta(x_{0:\tau}) \,dx_{1:\tau}
-```
+Difussion models are latent variable models described by: $$p_\theta(x_0) := \int p_\theta(x_{0:\tau}) \,dx_{1:\tau}$$
+
 Where x_1, ..., x_\tau are latent variables of the same dimensionality and data is represented by x_0 ~ q(x_0), which joint distribution 
 $$p_\theta(x_{0:\tau})$$ is the reverse is defined by the following Markov chain: 
 ```math
