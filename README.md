@@ -53,12 +53,15 @@ With the following restrictions for the case of the Simplex method:
 | Simplex| 666.6 | 1 | 0.7 | 1 | 1 | 1 | 1 | 1 | 1| 1 | **240.62** |
 
 ## **3. Deep Diffussion Models**
-The following work proposes modifications to the usual operations for classical denoising diffusion probabilistic models, for generating text-to-video, as defined by [*Ho (2020)*](https://arxiv.org/abs/2006.11239), 
-There it is defined: 
+The following work proposes modifications to the usual operations for classical denoising diffusion probabilistic models, for generating text-to-video, as defined by [*Ho (2020)*](https://arxiv.org/abs/2006.11239): 
 ```math
-1.  p_\theta(x_{0:T}):= p(x_T)\prod_{t=1}^Tp_\theta
-
+Difussion models are latent variable models described by: p_\theta(X_0) := \intp_\theta(X_{0:\Tau})dx_{1:\Tau}
 ```
+```math
+For the reverse process: 
+Calculating the probability for all: p_\theta(X_{0:T}):= p(X_T)\prod_{t=1}^Tp_\theta(X_{t-1}|X_t),  
+```
+
 ToDO: 
 - Train fully and extract weights
 
