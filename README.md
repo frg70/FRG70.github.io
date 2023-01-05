@@ -56,7 +56,8 @@ With the following restrictions for the case of the Simplex method:
 The following work proposes modifications to the usual operations for classical denoising diffusion probabilistic models, for generating text-to-video, as defined by [*Ho (2020)*](https://arxiv.org/abs/2006.11239), 
 There it is defined: 
 ```math
-1. p_\theta(x_0:T):= p(x_T)\prod_{t=1}^Tp_\theta
+1.  p_\theta(x_{0:T}):= p(x_T)\prod_{t=1}^Tp_\theta
+2.  p_\theta(x_{t-1}|x_t):=  
 
 ```
 ToDO: 
