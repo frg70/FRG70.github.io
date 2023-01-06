@@ -62,9 +62,9 @@ $$p_\theta(x_{0:\tau})$$ is the reverse is defined by the following Markov chain
 p_\theta(x_{0:T}):= p(x_T)\prod_{t=1}^Tp_\theta(x_{t-1}|X_t),  p_\theta(x_{t-1}|x_t):= \nu_\theta(x_{t-1}; \mu_\theta(x_t,t), \sum_\theta(x_t, t))     
 ```
 With a forward process defined as: 
-```math
-q(x_{1_\tau}|x_0):= \sum_{t=1}^\tau q(x_t|x_{t-1}), q(x_t|x_t-1) := \nu(x_t; \sqrt{1-\beta_tx_{t-1}, \beta, \iota)
-```
+
+$$q(x_{1_\tau}|x_0):= \sum_{t=1}^\tau q(x_t|x_{t-1}), q(x_t|x_t-1):= \nu(x_t; \sqrt{1-\beta_tx_{t-1},\beta,I)$$
+
 And training: 
 ```math 
 \mathcal{E}[-logp_\theta(x_0) \leq \mathcal{E}_q[-log\frac{p_\theta(x_{0:\tau}}{q(x_{1:\tau}|x_0} = \mathcal{E}_q[-logp(x_\tau) - \sum_{t \geq 1} log \frac{p_\theta(x_{t-1}|x_t}{q(x_t|x_{t-1})}] =: L
