@@ -63,7 +63,9 @@ p_\theta(x_{0:T}):= p(x_T)\prod_{t=1}^Tp_\theta(x_{t-1}|X_t),  p_\theta(x_{t-1}|
 ```
 With a forward process defined as: 
 
-$$q(x_{1_\tau}|x_0):= \sum_{t=1}^\tau q(x_t|x_{t-1}), q(x_t|x_t-1):= \nu(x_t; \sqrt{1-\beta_tx_{t-1},\beta,I)$$
+$$q(x_{1_\tau}|x_0):= \sum_{t=1}^\tau q(x_t|x_{t-1})$$
+
+$$q(x_t|x_t-1):= \nu(x_t; \sqrt{1-\beta_tx_{t-1},\beta,\iota)$$
 
 And training: 
 ```math 
