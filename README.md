@@ -81,7 +81,7 @@ ToDO:
 
 ## **5. Detection of Corn plague OpenCV(OpenCV-C++)**
 
-## **7. Stastical analysis and regression(R)** 
+## **6. Stastical analysis and regression(R)** 
 The [*Sympathetic nervous system*](https://my.clevelandclinic.org/health/body/23262-sympathetic-nervous-system-sns-fight-or-flight#:~:text=Your%20sympathetic%20nervous%20system%20is,in%20danger%20or%20physically%20active.) is a system that controls 
 This work analyses data from Sloan in an study that noted that cardiac sympathetic activation and parasympathetic withdrawal result in heart rate increases during psychological stress. 
 
