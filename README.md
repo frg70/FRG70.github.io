@@ -81,8 +81,6 @@ ToDO:
 
 ## **5. Detection of Corn plague OpenCV(OpenCV-C++)**
 
-## **6. Reinforcement learning games(Tensorflow.Js)**
-
 ## **7. Stastical analysis and regression(R)** 
 The [*Sympathetic nervous system*](https://my.clevelandclinic.org/health/body/23262-sympathetic-nervous-system-sns-fight-or-flight#:~:text=Your%20sympathetic%20nervous%20system%20is,in%20danger%20or%20physically%20active.) is a system that controls 
 This work analyses data from Sloan in an study that noted that cardiac sympathetic activation and parasympathetic withdrawal result in heart rate increases during psychological stress. 
@@ -111,7 +109,5 @@ For the linear model:
   <img src= "https://user-images.githubusercontent.com/79294106/210650369-3782c52d-a69d-43a1-9afd-0c71db3b9038.png" alt = "Footer" style ="display: inline-block; width: 900px; height: 450px;"/> 
 </div>
 <p align = "center"><i>Figure 6. Linear model computed</i></p>
-
-## **8. Physically informed machine learning for material science(Pytorch)** 
 
 
