@@ -79,7 +79,7 @@ ToDO:
 
 ## **4. Unity ML-Agents**
 
-## **5. Detection of Corn plague OpenCV**
+## **5. Detection of Corn plague**
 
 ## **6. Stastical analysis and regression** 
 The [*Sympathetic nervous system*](https://my.clevelandclinic.org/health/body/23262-sympathetic-nervous-system-sns-fight-or-flight#:~:text=Your%20sympathetic%20nervous%20system%20is,in%20danger%20or%20physically%20active.) is a system that controls 
