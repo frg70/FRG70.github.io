@@ -110,10 +110,10 @@ For the linear model:
 </div>
 <p align = "center"><i>Figure 6. Linear model computed</i></p>
 
-##**7. Netflix Clone**
+## **7. Netflix Clone**
 
 
-##**8. Minecraft Clone**
+## **8. Minecraft Clone**
 
 
 
