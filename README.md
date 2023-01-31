@@ -109,10 +109,11 @@ For the linear model:
   <img src= "https://user-images.githubusercontent.com/79294106/210650369-3782c52d-a69d-43a1-9afd-0c71db3b9038.png" alt = "Footer" style ="display: inline-block; width: 900px; height: 450px;"/> 
 </div>
 <p align = "center"><i>Figure 6. Linear model computed</i></p>
-## **7. Netflix Clone**
+
+##**7. Netflix Clone**
 
 
-## **8. Minecraft Clone**
+##**8. Minecraft Clone**
 
 
 
