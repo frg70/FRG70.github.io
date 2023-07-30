@@ -7,89 +7,247 @@ html, body {
 /* Set background color and font styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #fffcfc;
     line-height: 1.6;
+    display: flex;
 }
 
-/* Header styles */
-header {
-    background-color: #333;
+/* Lateral Navigation Bar styles */
+.lateral-nav {
+    background-color: #6daecb;
     color: #fff;
-    text-align: center;
-    padding: 1rem 0;
+    width: 0 0 200px; /* Adjust the width as needed */
+    min-height: 100vh;
+    padding-top: 1rem;
 }
 
-header h1 {
-    margin: 0;
-}
-
-header nav ul {
+.lateral-nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
-header nav li {
-    display: inline-block;
-    margin-right: 1rem;
+.lateral-nav li {
+    margin-bottom: 0.5 1rem;
 }
 
-header nav a {
-    color: #fff;
+.lateral-nav a {
+    color: #feffff;
     text-decoration: none;
+    display: block;
     padding: 0.5rem 1rem;
 }
 
-/* About section styles */
-#about {
+.lateral-nav a:hover {
+    background-color: #6daecb;
+}
+
+/* Main Content styles */
+.main-content {
     padding: 2rem;
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6daecb; /* Dark blue header background */
+    color: #fff;
+    padding: 1rem 2rem;
+}
+header img {
+    max-height: 100px;
+    border-radius: 50%;
+}
+/* Header styles */
+header h1 {
+    margin: 0;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 /* Projects section styles */
 #projects {
-    background-color: #fff;
-    padding: 2rem;
-}
-
-#projects h2 {
-    margin-top: 0;
-}
-
-#projects h3 {
-    margin-top: 1.5rem;
-}
-
-#projects ul {
-    list-style: none;
-    padding: 0;
-}
-
-#projects li {
-    margin-bottom: 1.5rem;
+        /* Slideshow container */
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Hide the images by default */
+    .mySlides {display: none;}
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(1,1,1,0.8);
+    }
+    /* Caption text */
+    .text {
+        color: #6daecb;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: ##6daecb;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;}
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #6daecb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #6daecb;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 }
 
 /* Contact section styles */
 #contact {
-    padding: 2rem;
-    background-color: #f2f2f2;
+    /* Add your contact section styles here */
 }
 
 /* Footer styles */
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #333;
+    background-color: #6daecb;
     color: #fff;
 }
+/* New styles for hamburger menu button and lateral nav visibility */
+.menu-btn {
+    display: none; /* Initially hidden on larger screens */
+}
 
-/* Media query for responsive design (adjust as needed) */
+/* Styles for the hamburger menu icon */
+.menu-icon {
+    width: 30px;
+    height: 20px;
+    border-top: 3px solid #f6f8f8;
+    margin: 5px auto;
+}
+
+/* Media query to show lateral nav and hamburger menu button on smaller screens */
 @media (max-width: 768px) {
-    header nav li {
-        display: block;
-        margin: 0.5rem 0;
+    .menu-btn {
+        display: block; /* Show the hamburger menu button */
     }
 
-    header nav a {
+    .lateral-nav {
+        display: none; /* Hide the lateral navigation bar by default */
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #6daecb;
+        width: 200px;
+        color: #fbfdfe;
+        padding-top: 1rem;
+    }
+
+    .lateral-nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .lateral-nav li {
+        margin-bottom: 1rem;
+    }
+
+    .lateral-nav a {
+        color: #fff;
+        text-decoration: none;
         display: block;
+        padding: 0.5rem 1rem;
+    }
+
+    .lateral-nav a:hover {
+        background-color: #fdfcfc;
     }
 }
+
+/* Additional styles for the sections with background images */
+.section-with-bg {
+    position: relative;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.section-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-content p {
+    font-size: 1.2rem;
+}
+
+
+
